@@ -1,0 +1,5 @@
+body{
+    background-image:-webkit-linear-gradient(65deg,black,white) ;
+    min-height: 1000px;
+    background-color: aliceblue;
+}

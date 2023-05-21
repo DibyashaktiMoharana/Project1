@@ -1,5 +1,67 @@
+*{
+    font-family: sans-serif;
+    margin:0px;
+    padding:0px;
+}
 body{
-    background-image:-webkit-linear-gradient(65deg,black,white) ;
     min-height: 1000px;
+    background-color: rgb(3, 16, 65);
+    color: aliceblue;
+}
+
+.navbar{
+    position: fixed;
+    width: 300px;
+    height:100%;
+    background-color: rgb(14, 1, 42);
+
+}
+
+.logo{
+    font-size: 1.7rem;
+    text-align: center;
+    color: black;
     background-color: aliceblue;
+    padding:20% 0%;
+}
+.content{
+    text-align: center;
+    margin-left:300px;
+}
+.icon-container{
+    margin: 10% 40%;
+    border: 2px solid ;
+    text-align: center;
+    cursor: pointer;
+}
+.icon{
+    padding: 10px 0px;
+}
+
+.link{
+    font-size: 2rem;
+
+}
+.active{
+    background-color: rgb(82, 13, 230);
+
+}
+.navicon{
+    padding-top: 3%;
+    padding:3% 5% 0%;
+    color: aliceblue;
+}
+.text{
+    padding-top: 3%;
+    padding-left: 15%;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.container{
+    padding: 5% 0%;
+    width:300px;
+    display: flex;
 }

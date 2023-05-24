@@ -9,8 +9,8 @@ body{
     color: aliceblue;
 }
 .content{
-    text-align: center;
-    margin-left:20%;
+    text-align: left;
+    margin-left:27%;
 }
 .icon{
     padding: 10px 0px;
@@ -114,4 +114,14 @@ body{
     margin-left: 5%;
     padding-top: 20%;
     padding-left: 0%;
+}
+.weatherheader{
+    display:inline-block;
+    height: 5%;
+    width: 10%;
+
+}
+.weatherimage{
+    height: 30px;
+    width: 30px;
 }

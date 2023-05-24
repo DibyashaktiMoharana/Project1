@@ -62,7 +62,13 @@ body{
     
 }
 .iconcontainerbtn:hover{
-    background-color: rgb(82, 13, 230);
+    background-color: rgb(53, 10, 147);
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+.iconcontainer:hover{
+    background-color: rgb(53, 10, 147);
     cursor: pointer;
     transition: 0.2s;
     
@@ -82,7 +88,7 @@ body{
 .text{
     text-align: left;
     font-size: 1.6rem ;
-    padding: 14% 0%;
+    padding: 10.55% 0%;
     padding-left: 15%;
     color: white;
 }
@@ -90,22 +96,22 @@ body{
     text-align: center;
     font-size: 1.7rem;
     color: black;
-    padding: 70% 0%;
+    padding: 91.5% 0%;
     background-color: aliceblue;
     transition: 0.2s;
 }
 
 .logot{
     font-size: 2rem;
-    height: 20.9%;
+    height: 25%;
     width: 100%;
-    text-align: center;
     color: black;
     background-color: aliceblue;
 
 }
 .logotext{
+    display: inline-block;
+    margin-left: 5%;
     padding-top: 20%;
-    padding-right: 20%;
     padding-left: 0%;
 }
